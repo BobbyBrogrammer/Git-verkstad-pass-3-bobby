@@ -1,31 +1,17 @@
+# Case 03 – Behåll båda versionerna
+
 ## Scenario
 
-Ni arbetar två och två i samma branch: `case-03-behall-bada-versionerna`.
+Du arbetar i branchen `case-03-behall-bada-versionerna`.
 
-Båda deltagarna ska ändra **samma rad** i `index.html`, men skriva olika innehåll.
-
-### Deltagare 1
-
-- Ändra den angivna raden.
-- Skapa en commit.
-- Pusha ändringen till GitHub.
-
-### Deltagare 2
-
-- Ändra **samma rad**, men skriv något annat.
-- Skapa en commit.
-- Försök pusha din ändring.
-
-Pushen kommer att nekas eftersom en ny version redan har pushats till GitHub.
-
-Hämta därefter de senaste ändringarna från GitHub. Eftersom båda har ändrat samma rad uppstår en merge-konflikt.
+En annan utvecklare har redan gjort ändringar i branchen `case-03-konflikt`. De ändringarna påverkar samma rad i `index.html` som du har ändrat.
 
 ## Din uppgift
 
-Lös merge-konflikten genom att **behålla båda versionerna**.
+1. Merga `case-03-konflikt` in i `case-03-behall-bada-versionerna`.
+2. När merge-konflikten uppstår, lös den genom att **behålla båda versionerna**.
+3. Redigera filen så att båda ändringarna finns kvar och ta bort konfliktmarkeringarna.
+4. Slutför merge-processen.
+5. Kontrollera att konflikten är löst.
 
-Redigera filen så att båda deltagarnas ändringar finns kvar och ta bort konfliktmarkeringarna.
-
-Slutför därefter merge-processen och pusha den färdiga lösningen till GitHub.
-
-> **Tips:** En merge-konflikt behöver inte alltid lösas genom att välja en av versionerna. I många fall är den bästa lösningen att kombinera båda ändringarna.
+> **Tips:** I det här caset ska du kombinera båda versionerna i stället för att välja bara en.

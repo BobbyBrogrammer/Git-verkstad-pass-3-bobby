@@ -4,16 +4,14 @@
 
 Du arbetar i branchen `case-04-tidigare-version`.
 
-En felaktig ändring har gjorts och pushats i branchen `case-04-felaktig-version`.
-
-Du behöver återställa projektet till versionen som fanns innan den felaktiga ändringen.
+En felaktig version har redan mergats in i branchen. Projektet innehåller därför ändringar som inte ska finnas kvar.
 
 ## Din uppgift
 
-1. Merga `case-04-felaktig-version` in i `case-04-tidigare-version`.
-2. Kontrollera vilka ändringar som kom in.
-3. Hitta versionen som fanns innan den felaktiga ändringen.
-4. Återställ projektet till den tidigare fungerande versionen.
-5. Kontrollera att den felaktiga ändringen inte längre finns kvar.
+1. Undersök commit-historiken.
+2. Hitta versionen som fanns innan den felaktiga ändringen mergades in.
+3. Återställ branchen till den tidigare versionen.
+4. Kontrollera att den felaktiga ändringen inte längre finns kvar.
+5. Pusha den återställda versionen till GitHub.
 
-> **Tips:** Titta på commit-historiken innan du återställer något.
+> **Tips:** Kontrollera commit-historiken noggrant innan du väljer vilken version du ska återställa till.

@@ -3,22 +3,21 @@
 ## Nyckelkommandon
 
 ```bash
-git merge case-04-felaktig-version
 git log --oneline
-git reset --hard HEAD~1
+git reset --hard <commit-id>
 git status
 git push --force-with-lease
 ```
 
 ## Därför händer det
 
-När en felaktig ändring har mergats in blir den en del av branchens historik.
+Den felaktiga ändringen har mergats in och blivit en del av historiken i `case-04-tidigare-version`.
 
-Git sparar tidigare commits, vilket gör att du kan gå tillbaka till versionen som fanns innan den felaktiga ändringen.
+Git sparar tidigare commits, vilket gör att du kan hitta versionen som fanns innan den felaktiga ändringen och återställa branchen till det läget.
 
 ## Tips
 
-- Använd `git log --oneline` för att se commit-historiken.
-- Kontrollera alltid vilken commit du vill gå tillbaka till innan du återställer.
-- `git reset --hard` tar bort ändringar i arbetskatalogen, så använd kommandot försiktigt.
-- Om den felaktiga versionen redan har pushats behöver remote-branchen uppdateras efter återställningen.
+- Använd `git log --oneline` för att hitta den tidigare versionen.
+- Kontrollera commit-id noggrant innan du återställer.
+- I det här caset ska du återställa till **versionen innan den felaktiga ändringen**.
+- Kontrollera med `git status` att allt ser rätt ut innan du pushar.

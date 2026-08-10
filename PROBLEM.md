@@ -2,30 +2,15 @@
 
 ## Scenario
 
-Ni arbetar två och två i samma branch: `case-01-behall-mina-andringar`.
+Du arbetar i branchen `case-01-behall-mina-andringar`.
 
-Båda ska ändra **samma rad** i `index.html`, men skriva olika innehåll.
-
-### Deltagare 1
-
-1. Ändra den angivna raden.
-2. Skapa en commit.
-3. Pusha ändringen till GitHub.
-
-### Deltagare 2
-
-1. Ändra **samma rad**, men skriv något annat.
-2. Skapa en commit.
-3. Försök pusha din ändring.
-
-Pushen kommer att nekas eftersom en ny version redan har pushats till GitHub.
-
-Hämta därefter de senaste ändringarna från GitHub. Eftersom båda har ändrat samma rad uppstår en merge-konflikt.
+En annan utvecklare har redan gjort ändringar i branchen `case-01-konflikt`. De ändringarna påverkar samma rad i `index.html` som du har ändrat.
 
 ## Din uppgift
 
-Lös merge-konflikten genom att **behålla dina egna ändringar**.
-
-Slutför därefter merge-processen och pusha den färdiga lösningen till GitHub.
+1. Merga `case-01-konflikt` in i `case-01-behall-mina-andringar`.
+2. När merge-konflikten uppstår, lös den genom att **behålla dina egna ändringar**.
+3. Slutför merge-processen.
+4. Kontrollera att konflikten är löst.
 
 > **Tips:** Läs konfliktmarkeringarna i filen noggrant innan du väljer vilken version som ska behållas.

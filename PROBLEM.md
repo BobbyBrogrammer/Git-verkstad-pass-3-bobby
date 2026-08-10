@@ -2,15 +2,18 @@
 
 ## Scenario
 
-Efter den ursprungliga versionen av projektet har flera commits gjorts och pushats till branchen.
+Du arbetar i branchen `case-04-tidigare-version`.
 
-Du upptäcker att de senaste ändringarna inte skulle ha gjorts och behöver därför återställa projektet till den tidigare fungerande versionen.
+En felaktig ändring har gjorts och pushats i branchen `case-04-felaktig-version`.
+
+Du behöver återställa projektet till versionen som fanns innan den felaktiga ändringen.
 
 ## Din uppgift
 
-- Undersök commit-historiken.
-- Identifiera vilken commit som motsvarar den ursprungliga versionen.
-- Återställ branchen till den versionen.
-- Kontrollera att de senare ändringarna inte längre finns kvar.
+1. Merga `case-04-felaktig-version` in i `case-04-tidigare-version`.
+2. Kontrollera vilka ändringar som kom in.
+3. Hitta versionen som fanns innan den felaktiga ändringen.
+4. Återställ projektet till den tidigare fungerande versionen.
+5. Kontrollera att den felaktiga ändringen inte längre finns kvar.
 
-> **Tips:** Använd Git-historiken för att hitta rätt commit innan du återställer projektet.
+> **Tips:** Titta på commit-historiken innan du återställer något.

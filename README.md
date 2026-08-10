@@ -1,37 +1,33 @@
-# Git-verkstad – Pass 2
+# Git-verkstad – Pass 3
 
-Detta repo används under Git-verkstadens andra pass.
+Detta repo används under Git-verkstadens tredje pass.
 
-Fokus i detta pass är hur utvecklare samarbetar med Git i ett gemensamt projekt.
+Fokus i detta pass är att lära sig hantera merge-konflikter, återställa tidigare versioner och förstå hur Git hjälper dig när flera utvecklare arbetar med samma kod.
 
 ## Innehåll
 
 Under passet kommer du att arbeta med följande scenarier:
 
-- Jag glömde hämta senaste ändringarna innan jag började.
-- Min push nekas.
-- Jag råkade jobba på fel branch.
-- Öppna en Pull Request och be om code review.
-- Reviewa en annan persons Pull Request och lämna kommentarer.
-- Fördjupning: node_modules eller .env har redan committats innan .gitignore skapades.
-
-## Starta projektet
-
-Öppna `index.html` i webbläsaren eller använd Live Server i Visual Studio Code.
+- Behåll mina ändringar.
+- Behåll den andra personens ändringar.
+- Behåll båda versionerna.
+- Återställ till en tidigare version.
 
 ## Projektets filer
 
 ```text
-git-verkstad-pass-2/
+git-verkstad-pass-3/
 ├── README.md
 ├── index.html
-├── artiklar.html
-├── om.html
-├── kontakt.html
 ├── style.css
 └── script.js
 ```
 
 ## Mål
 
-Efter detta pass ska du känna dig trygg med att samarbeta i Git genom att arbeta med brancher, Pull Requests och vanliga problem som uppstår när flera utvecklare arbetar i samma projekt.
+Efter passet ska du kunna:
+
+- Hantera merge-konflikter.
+- Förstå konfliktmarkeringar i Git.
+- Lösa konflikter på olika sätt.
+- Återställa projektet till en tidigare version.

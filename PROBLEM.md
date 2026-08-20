@@ -4,14 +4,19 @@
 
 Du arbetar i branchen `case-03-behall-bada-versionerna`.
 
-En annan utvecklare har redan gjort ändringar i branchen `case-03-konflikt`. De ändringarna påverkar samma rad i `index.html` som du har ändrat.
+När du mergar in `case-03-konflikt` uppstår en merge-konflikt i `index.html`.
+
+Konflikten finns redan förberedd i caset. Din uppgift är alltså inte att skapa en konflikt, utan att lösa den konflikt som uppstår när brancherna mergas.
 
 ## Din uppgift
 
 1. Merga `case-03-konflikt` in i `case-03-behall-bada-versionerna`.
-2. När merge-konflikten uppstår, lös den genom att **behålla båda versionerna**.
-3. Redigera filen så att båda ändringarna finns kvar och ta bort konfliktmarkeringarna.
-4. Slutför merge-processen.
-5. Kontrollera att konflikten är löst.
+2. Kontrollera vilken fil som innehåller konflikten.
+3. Öppna `index.html` i Visual Studio Code.
+4. Jämför de två versionerna och behåll båda ändringarna.
+5. Kontrollera att båda versionerna finns kvar och att konfliktmarkeringarna är borta.
+6. Markera konflikten som löst.
+7. Slutför merge-processen.
+8. Kontrollera att inga konflikter finns kvar.
 
-> **Tips:** I det här caset ska du kombinera båda versionerna i stället för att välja bara en.
+> **Tips:** I det här caset ska du inte välja bara en version. Kombinera båda ändringarna så att båda finns kvar i den färdiga filen.
